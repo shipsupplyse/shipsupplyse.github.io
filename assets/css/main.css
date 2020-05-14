@@ -116,7 +116,7 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: #012ca181;
-    color: #012ca181 !important; }
+    color: #3f4dca75 !important; }
     a:hover strong {
       color: inherit; }
 
@@ -147,7 +147,7 @@ h1 {
   line-height: 1.3; }
 
 h2 {
-  font-size: 1.75em; }
+  font-size: 2.5em; }
 
 h3 {
   font-size: 1.25em; }
@@ -998,7 +998,7 @@ header p {
   text-transform: uppercase; }
 
 header.major > :last-child {
-  border-bottom: solid 2px #000000;
+  border-bottom: solid 2px #3d4449;
   display: inline-block;
   margin: 0 0 1em 0;
   padding: 0 0.75em 0.1em 0; }
@@ -1352,7 +1352,7 @@ ul.icons {
     ul.icons li .icon {
       color: inherit; }
       ul.icons li .icon:before {
-        font-size: 1.25em; }
+        font-size: 3em; }
 
 /* Contact */
 ul.contact {
@@ -1360,7 +1360,7 @@ ul.contact {
   padding: 0; }
   ul.contact li {
     text-decoration: none;
-    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    border-top: solid 1px rgba(210, 215, 217, 0.75);;
     margin: 1.5em 0 0 0;
     padding: 1.5em 0 0 3em;
     position: relative; }
@@ -1376,7 +1376,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: #000000;
+      color: #3d3c3c;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -2076,7 +2076,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 3px #000000;
+  border-bottom: solid 3px #002060;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
@@ -2107,7 +2107,9 @@ button,
         position: absolute;
         right: -0.5em;
         top: 0; } }
+       
 
+          
 /* Banner */
 #banner {
   padding: 6em 0 4em 0 ;
@@ -2138,9 +2140,9 @@ button,
     flex-shrink: 0;
     display: block;
     margin: 0 0 2em 4em;
-    width: 50%; }
+    width: 25%; }
     #banner .image img {
-      height: 100%;
+      height: 80%;
       -moz-object-fit: cover;
       -webkit-object-fit: cover;
       -ms-object-fit: cover;
@@ -2149,7 +2151,7 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 100%; }
+      width: 80%; }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
